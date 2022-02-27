@@ -1,0 +1,82 @@
+.formation {
+    .formationContent {
+        display: grid;
+        background: $color-1;
+        min-height: $minHeight;
+        width: 100%;
+        border-radius: $borderRadius;
+        position: relative;
+        overflow: hidden;
+        margin-left: 0.5rem;
+        margin-right: 1rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 1fr 1fr 1fr ;
+        grid-template-areas: 
+          "1"
+          "2"
+          "3"
+          "4";
+    
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+            font-family: $font-2;
+            color: $color-5;
+            text-transform: uppercase;
+            text-shadow: 3px 6px 2px $black;
+            margin-top: 1rem;
+        }
+
+        h2{
+            margin-left: 2rem;
+            margin-top: 1rem;
+            color: $color-4;
+        }
+
+        h3{
+           font-size: 0.9rem; 
+            margin-left: 2rem;
+            margin-top: 1rem;
+            color: $color-5;
+        }
+
+        p{
+            font-size: 1.1rem;
+            margin-top: 2rem;
+            text-align: center;
+            color: $color-1;
+        }
+        .formation1{
+            grid-area: 2;
+            background-color: $color-2;
+            border-radius: $borderRadius;
+            margin: 2rem;
+
+        }
+        .formation2{
+            grid-area: 3;
+            background-color: $color-2;
+            border-radius: $borderRadius;
+            margin: 2rem;
+        }
+        .formation3{
+            grid-area: 4;
+            background-color: $color-2;
+            border-radius: $borderRadius;
+            margin: 2rem;
+        }
+        
+    }
+}
+@media screen and (max-width: 850px) {
+    
+}
+@media screen and (max-width: 580px) {
+    .homeContent {
+       
+        h1 {
+            font-size: 3rem !important;
+        }
+       
+    }
+}
