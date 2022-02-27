@@ -4,7 +4,7 @@ export const portfolioData = [
     name: 'Portfolio',
     languages: ['javascript', 'HTML/CSS', 'React'],
     languagesIcons: ['fab fa-react','fab fa-js', 'fab fa-css3-alt'],
-    source: 'http://www.github.com',
+    source: 'https://github.com/ExperiencePractice/Nicolaswebsite',
     info: "Ce projet représente mon CV. C'est mon premier projet solo sur React. Réaliser avec l'aide du Youtubeur From Scratch",
     picture: 'imgs/Projet2.png'
   },
