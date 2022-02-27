@@ -17,7 +17,7 @@ const Navigation = () => {
                 <ul>
                     <li>
                         <NavLink
-                            exact to="/"
+                            exact to="/Nicolaswebsite/"
                             activeClassName="navActive">
                             <i className='fas fa-home'></i>
                             <span>Accueil</span>
@@ -25,7 +25,7 @@ const Navigation = () => {
                     </li>
                     <li>
                         <NavLink
-                            exact to="/portfolio"
+                            exact to="/Nicolaswebsite/portfolio"
                             activeClassName="navActive">
                             <i className='fas fa-images'></i>
                             <span>Portfolio</span>
@@ -33,7 +33,7 @@ const Navigation = () => {
                     </li>
                     <li>
                         <NavLink
-                            exact to="/formation"
+                            exact to="/Nicolaswebsite/formation"
                             activeClassName="navActive">
                             <i className='fas fa-images'></i>
                             <span>Formation</span>
@@ -41,7 +41,7 @@ const Navigation = () => {
                     </li>
                     <li>
                         <NavLink
-                            exact to="/competences"
+                            exact to="/Nicolaswebsite/competences"
                             activeClassName="navActive">
                             <i className='fas fa-mountain'></i>
                             <span>Competences</span>
@@ -49,7 +49,7 @@ const Navigation = () => {
                     </li>
                     <li>
                         <NavLink
-                            exact to="/contact"
+                            exact to="/Nicolaswebsite/contact"
                             activeClassName="navActive">
                             <i className='fas fa-address-book'></i>
                             <span>Contact</span>

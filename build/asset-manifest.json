@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Nicolaswebsite/static/css/main.1cc31876.css",
+    "main.js": "/Nicolaswebsite/static/js/main.c64e21f6.js",
+    "static/js/787.7efd31bd.chunk.js": "/Nicolaswebsite/static/js/787.7efd31bd.chunk.js",
+    "static/media/Photo_Id.png": "/Nicolaswebsite/static/media/Photo_Id.001dc9337da1341d98c7.png",
+    "static/media/CV.pdf": "/Nicolaswebsite/static/media/CV.b0bfc1cff0ae2c7edcd9.pdf",
+    "index.html": "/Nicolaswebsite/index.html",
+    "main.1cc31876.css.map": "/Nicolaswebsite/static/css/main.1cc31876.css.map",
+    "main.c64e21f6.js.map": "/Nicolaswebsite/static/js/main.c64e21f6.js.map",
+    "787.7efd31bd.chunk.js.map": "/Nicolaswebsite/static/js/787.7efd31bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cc31876.css",
+    "static/js/main.c64e21f6.js"
+  ]
+}
